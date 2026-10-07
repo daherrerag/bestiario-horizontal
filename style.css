@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Pone las 4 imágenes una al lado de la otra */
+#bestia {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+#bestia img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
